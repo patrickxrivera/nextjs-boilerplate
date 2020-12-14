@@ -1,0 +1,40 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/react-hooks": "4.0.0",
+    "@apollo/react-ssr": "4.0.0",
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "graphql-request": "^3.3.0",
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-apollo": "3.1.5",
+    "react-dom": "17.0.1",
+    "react-markdown": "5.0.3",
+    "swr": "^0.3.9"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.13.0",
+    "prettier": "2.2.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 2
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
